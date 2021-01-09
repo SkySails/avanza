@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fhqvst/avanza.git"
+    "url": "git+https://github.com/SkySails/avanza/.git"
   },
   "author": "Filip Hallqvist <filiphallqvist@gmail.com>",
   "license": "MIT",
