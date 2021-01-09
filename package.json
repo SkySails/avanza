@@ -8,7 +8,8 @@
     "test": "npm start && cross-env NODE_ENV=test NODE_PATH=lib ava tests/**/*.test.js",
     "lint": "eslint lib/**/*",
     "docs": "npm start && node scripts/generate-documentation.js",
-    "prepublishOnly": "npm run lint"
+    "prepublishOnly": "npm run lint",
+    "prepare": "npm run start"
   },
   "repository": {
     "type": "git",
@@ -33,7 +34,7 @@
     "cross-env": "^5.0.5",
     "documentation": "^4.0.0-rc.1",
     "dotenv": "^2.0.0",
-    "eslint": "^3.9.1",
+    "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint-plugin-import": "^2.12.0",
     "sinon": "^2.3.6"
